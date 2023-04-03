@@ -10,3 +10,5 @@ router.get('/', (req, res) => {
     })
     .catch((err) => res.sendStatus(500).send(err.message))
 })
+
+export default router
